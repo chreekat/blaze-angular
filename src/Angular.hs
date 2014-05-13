@@ -22,7 +22,8 @@ ngClick      = customAttribute "ng-click"
 ngScope      = customAttribute "ng-scope"
 ngCloak      = customAttribute "ng-cloak"
 ngSrc        = customAttribute "ng-src"
-ngFor        = customAttribute "ng-for"
+
+ngView = elemDirective "ng-view"
 
 -- | Copping out and returning String to simplify the mess of needing to
 -- convert both to AttributeValue and Html.

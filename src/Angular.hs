@@ -32,11 +32,6 @@ ngView = elemDirective "ng-view"
 template :: Text -> String
 template expr = T.unpack $ T.concat ["{{", expr, "}}"]
 
--- | Add filters to a template thingy. I already don't like this idea.
--- We'll see where it goes.
-(!|) :: Text -> Text -> Text
-expr !| filter = T.concat [expr, "|", filter]
-
 -- | This function can, and in fact should, be used to create non-standard
 -- html elements. Using it for purposes other than teaching blaze-html
 -- about Angular directives [http://docs.angularjs.org/guide/directive]

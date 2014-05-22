@@ -23,6 +23,7 @@ ngScope      = customAttribute "ng-scope"
 ngCloak      = customAttribute "ng-cloak"
 ngSrc        = customAttribute "ng-src"
 ngDisabled   = customAttribute "ng-disabled"
+ngBlur       = customAttribute "ng-blur"
 
 ngView = elemDirective "ng-view"
 
